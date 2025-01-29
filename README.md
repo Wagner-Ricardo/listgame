@@ -57,10 +57,9 @@ PGAdmin 4
 Postgres 13
 
 
-
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/Wagner-Ricardo/listgame
 
 # entrar na pasta do projeto back end
 cd backend
@@ -69,17 +68,7 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-
-```
-
 # Autor
+Wagner Ricardo Alves dos Santos
+[linkedin.com/in/wagner-ricardo-5a261231/](https://www.linkedin.com/in/wagner-ricardo-5a261231)
+![email](wricardoeng@gmail.com)
