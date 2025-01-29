@@ -28,7 +28,7 @@ A camada de serviço corresponde á "lógica do negócio" onde todas as funciona
 ## Utilizando Banco H2 para teste inicial.
 ![Banco H2]![H2-Seed](https://github.com/user-attachments/assets/ecec0152-85c0-4f23-a238-c0b5a7c46ca7)
 
-O Banco H2 gera a sua base nba memória do computador e uma ferramenta prática para o desenvolvimento inicial pois não é precisa instalarpor que foi incluido como uma das dependências desse projeto. Nessa imagem temos o banco já "semeado" com as informações das tabelas. 
+O Banco H2 gera a sua base na memória do computador e uma ferramenta prática para o desenvolvimento inicial pois não é precisa instalarpor que foi incluido como uma das dependências desse projeto. Nessa imagem temos o banco já "semeado" com as informações das tabelas. 
 
 ## Requisições de acesso aos recurso via API REST/HTTP. 
 Nessa fase do  desenvolvimento utilizamos simultaneamente os bancos H2 e  Postgres para testar o desenvolvimento no modo de test e desenvolvimento a partir de arquivos *.properties a qual podemos seleciona-los dependendo da fase do projeto classificando como test,dev ou prod. A imagem abaixo estou selecionando o modo dev ou desenvolvedor para isso basta alterar -> spring.profiles.active=${APP_PROFILE:dev}.
